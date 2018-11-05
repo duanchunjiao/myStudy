@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <link rel="stylesheet" href="formCSS.css">
+</head>
+<body>
+<form action="">
+    <fieldset>
+        <legend>用户登录</legend>
+        <div class="form-group">
+            <lable>登录账户</lable>
+            <input type="email" class="form-control"  placeholder="请输入用户名或email">
+        </div>
+        <div class="form-group">
+            <lable>密码</lable>
+            <input type="text" class="form-control"  placeholder="请输入你的密码">
+        </div>
+        <div class="check-box">
+            <lable><input  type="checkbox">记住密码</lable>
+        </div>
+        <button type="submit" class="btn btn-default">登录</button>
+
+    </fieldset>
+    </form>
+
+    <form  class="form-inline">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="请输入你的用户名">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="请输入你的密码">
+        </div>
+        <div class="checkbox">
+            <lable><input type="checkbox">记住密码</lable>
+        </div>
+        <button type="submit" class="btn btn-default">登陆</button>
+    </form>
+</form>
+<form  class="form-horizontal" role="form">
+    <div class="form-group" >
+        <lable for="account" class="col-sm-2 control-label">用户名</lable>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="account" placeholder="请输入你的用户名" >
+        </div>
+    </div>
+    <div class="form-group">
+        <lable for="password" class="col-sm-2 control-label">密码</lable>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="password" placeholder="请输入你的密码">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+                <lable><input type="checkbox">记住密码</lable>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">登陆</button>
+        </div>
+    </div>
+</form>
+<!--<div class="checkbox">
+    <input type="checkbox" value="">是否想赚大钱
+</div>
+<div class="ridio">
+    <input type="radio" name="optionsRadios" value="female" checked>请确保你喜欢女人？</lable>
+</div>-->
+<div class="checkbox-inline">
+    <lable><input type="checkbox" value="体育" id="inlineCheckbox1">体育</lable>
+
+</div>
+<div class="radio-inline">
+    <lable><input type="radio" value="female" id="radio2">男</lable>
+</div>
+<div class="form-group has-success has-feedback">
+    <lable class="control-label" for="inputSuccess2">输入的长度不够！</lable>
+    <input type="text" class="form-control" id="text1" id="inputSuccess2">
+    <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<button type="button" class="btn btn-primary btn-lg active" disabled="disabled">我是一个按钮</button>
+<a href="#" class="btn btn-primary btn-lg active" role="button">link</a>
+<br>
+<br>
+<br>
+<!--文本样式-->
+<p class="text-muted">段春娇是小可爱</p>
+<p class="text-primary">段春娇是小可爱</p>
+<p class="text-success">段春娇是小可爱</p>
+<p class="text-info">段春娇是小可爱</p>
+<p class="text-warning">段春娇是小可爱</p>
+<p class="text-danger">段春娇是小可爱</p>
+<br>
+<br>
+<br>
+<br>
+<div class="btn-group">
+    <a href="#" class="btn btn-default btn-primary"><span class="glyphicon glyphicon-user"></span>User</a>
+    <a href="#" class="btn btn-default btn-primary dropdown-toggle" data-toggle="" ><span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li><a href="#"><span class="glyphicon glyphicon-pencil"></span>Edit</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-trash"></span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-ban-circle"></span></a></li>
+    </ul>
+</div>
+<br>
+<br>
+<br>
+<br>
+<ul class="nav nav-pills nav-stacked" >
+    <li><a href="#"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+    <li><a href="#"><span class="glyphicon glyphicon-pencil"></span>Library</a></li>
+    <li><a href="#"><span class="glyphicon glyphicon-book"></span>Applications</a></li>
+
+</ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h5>你好</h5>
+<br>
+<br>
+<br>
+<div class="dropdown">
+    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1"
+            data-toggle="dropdown">
+        主题
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">Java</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">数据通信/网络</a>
+        </li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">分离的链接</a>
+        </li>
+    </ul>
+</div>
+<div class="btn-group">
+    <button type="button" class="btn btn-default">按钮 1</button>
+    <button type="button" class="btn btn-default">按钮 2</button>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            下拉
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">下拉链接 1</a></li>
+            <li><a href="#">下拉链接 2</a></li>
+        </ul>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="btn-group">
+    <button type="button" class="btn btn-default">left</button>
+    <button type="button" class="btn btn-default">你好</button>
+    <button type="button" class="btn btn-default">right</button>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="input-group input-group-lg">
+    <span class="input-group-addon">@</span>
+    <input type="text" class="form-control" placeholder="Username">
+</div>
+
+<div class="input-group">
+    <span class="input-group-addon input-lg">@</span>
+    <input type="text" class="form-control" placeholder="Username">
+</div>
+
+<div class="btn-group">
+    <button type="button" class="btn btn-default">你</button>
+    <button type="button" class="btn btn-default">走</button>
+    <button type="button" class="btn btn-default">开</button>
+</div>
+<div class="btn-group">
+    <button type="button" class="btn btn-default">按钮按</button>
+    <button type="button" class="btn btn-default">俺妞妞</button>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle " data-toggle="dropdown" >
+            <span class="caret"></span>下拉列表
+        </button>
+        <ul class="dropdown-menu">
+            <li>下拉列表1</li>
+            <li>下拉列表2</li>
+        </ul>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="row">
+    <div class="col-lg-3">
+        <div class="input-group">
+            <span class="input-group-addon"><input type="checkbox"></span>
+            <input type="text" class="form-control">
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="input-group">
+            <span class="input-group-addon"><input type="radio"></span>
+            <input type="text" class="form-control">
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="row">
+    <div class="col-lg-3">
+        <div class="input-group">
+            <span class="input-group-btn"><button  class="btn btn-default" type="button">GO!</button></span>
+            <input type="text" class="form-control">
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="input-group">
+            <input type="text" class="form-control">
+            <span class="input-group-btn"><button class="btn btn-default" type="button"> GO!</button></span>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+    <div class="col-lg-3">
+        <div class="input-group">
+            <div class="input-group-btn">
+            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" onclick="dropDOWN() " id="ok">
+               Action <span class="caret"></span>
+            </button>
+
+            <ul class="dropdown-menu">
+                <li>你</li>
+                <li>走</li>
+                <li>来</li>
+            </ul>
+            </div>
+            <input type="text" class="form-control">
+        </div>
+    </div>
+</div>
+
+
+
+
+<!---->
+<div class="nav nav-tabs">
+    <li class="active"><a href="#">主页</a></li>
+    <li><a href="#">个人信息</a></li>
+    <li class="disabled"><a href="#">图书</a></li>
+</div>
+<br>
+<br>
+<div class="nav nav-pills">
+    <li class="active"><a href="#">主页</a></li>
+    <li><a href="#">个人信息</a></li>
+    <li class="disabled"><a href="#">图书</a></li>
+</div>
+<br>
+<br>
+<div class="nav nav-stacked">
+    <li class="active"><a href="#">主页</a></li>
+    <li><a href="#">个人信息</a></li>
+    <li class="disabled"><a href="#">图书</a></li>
+</div>
+<br>
+<br>
+<ul class="nav nav-pills nav-stacked">
+    <li class="active"><a href="#">主页</a></li>
+    <li><a href="#">个人信息</a></li>
+    <li><a href="#">作品</a></li>
+    <li class="nav-divider"></li>
+    <li><a href="#">图书</a></li>
+</ul>
+<br>
+<br>
+<ul class="nav nav-tabs nav-justified">
+    <li class="active"><a href="#">主页</a></li>
+    <li><a href="#">个人信息</a></li>
+    <li><a href="#">作品</a></li>
+    <li class="nav-divider"></li>
+    <li><a href="#">图书</a></li>
+</ul>
+<ul class="nav nav-pills nav-justified">
+    <li class="active"><a href="#">主页</a></li>
+    <li><a href="#">个人信息</a></li>
+    <li><a href="#">作品</a></li>
+    <li class="nav-divider"></li>
+    <li><a href="#">图书</a></li>
+</ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<nav class="navbar navbar-default">
+    <div class="navbar-header">
+        <a href="#" class="navbar-brand">Brand</a>
+    </div>
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="#">active</a></li>
+        <li><a href="#">Link</a></li>
+        <li class="disabled"><a href="#">disabled</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header"><a href="#" class="navbar-brand">Brand</a></div>
+    <form action="" class="navbar-form navbar-left" role="search">
+        <div class="form-group"><input type="text" class="form-control" placeholder="search"></div>
+        <button type="submit" class="btn btn-default">左按钮</button>
+    </form>
+    <form action="" class="navbar-form navbar-right" role="search">
+        <div class="form-group"><input type="text" class="form-control" placeholder="search"></div>
+        <button type="submit" class="btn btn-default">又按钮</button>
+    </form>
+</nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<nav class="navbar navbar-default">
+    <div class="nav-header">
+        <a href="#" class="navbar-brand">Brand</a>
+    </div>
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="#">主页</a></li>
+        <li><a href="#">作品</a></li>
+        <li><a href="#">图书</a></li>
+        <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">下拉菜单
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li>你好</li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<ul class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">ni</a></li>
+    <li><a href="#">a</a></li>
+</ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<ul class="pagination">
+    <li><a href="#">&laquo;</a></li><!--下一页-->
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">&raquo;</a></li>
+</ul>
+<!--<a href="#">Inbox<span class="badge">段春娇</span></a>-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="jumbotron">
+    <h1>你好啊，段春娇</h1>
+    <p>段春娇是一个小可爱，是一个小仙女，是一个超级超级可爱的小仙女，特别特别可爱的小仙女，哈哈哈哈哈，
+        我爱你哦，你要变成更好地自己哦，不要让我失望啊 ，谢谢你啊 ，我也很爱你哦</p>
+    <p><a href="#" class="btn btn-primary btn-lg">Learn more</a></p>
+</div>
+<div class="page-header">
+    <h1>Example page header <small>subtext for header</small></h1>
+</div>
+
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="../images/17.png"  alt="">
+            <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>this is a qustion ,and we will tell you you should love together
+                jvanfsvljdk,ftmlvdhjg sk;fsc/dlxs.,.mvknjsneujiodkl;'xl,kmjnhbgsuhyijokpl;,nbcxghjxkmnbv</p>
+                <p>
+                    <a href="#" class="btn btn-primary">Action</a>
+                    <a href="#" class="btn btn-default">Action</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="alert">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Warning!</strong>Best check you self ,you're not
+</div>
+<div class="alert alert-dismissable">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    <strong>Warning</strong>
+    <p>Best check you self ,you're not </p>
+    <div class="alert alert-danger">
+        <a href="#" class="alert-link">http://baidu.com</a>
+    </div>
+</div>
+<div class="progress ">
+    <div class="progress-bar progress-bar-success" style="width: 40%"></div>
+</div>
+<div class="progress progress-striped active">
+    <div class="progress-bar progress-bar-danger" style="width: 20%"></div>
+</div>
+<ul class="list-group">
+    <li class="list-group-item list-group-item-success active">Javascript的精讲部分
+    <span class="badge">13</span></li>
+    <li class="list-group-item">Javascrip设计模式</li>
+    <li class="list-group-item">Javascrip启示录
+    <span class="glyphicon glyphicon-chevron-right"></span></li>
+    <li class="list-group-item">正在构想的书
+        <span class="glyphicon glyphicon-chevron-right"></span></li>
+    <li class="list-group-item">当前读的书</li>
+</ul>
+<div class="list-group">
+    <a href="#" class="list-group-item">
+        <h4>编程精讲</h4>
+        <p>不同于其他书记卖我么计算机成绩的子女吧说几句就成了蝴蝶深V在考
+            虑怎么幸
+            灾乐祸把实践活动卡拉等级管积分是你几次电话比较董事长</p>
+    </a>
+</div>
+<div class="panel panel-default">
+    <div class="panel-body">
+        这是面板内容
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="panel panel-success">
+    <div class="panel-heading">汤姆大叔的数目</div>
+    <p>
+        <br>以下列表是汤姆大叔在2012、2013年所出版的图书，敬请大家阅读，多提意见。<br>
+    </p>
+    <ul class="list-group">
+        <li class="list-group-item">Javascript编程精讲</li>
+        <li class="list-group-item">设计模式</li>
+        <li class="list-group-item">正在构思的书</li>
+    </ul>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--<div class="modal show">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Modal标题 </h4>
+            </div>
+            <div class="modal-body">
+                <p>这里是弹窗里的具体内容</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>-->
+<nav class="navbar navbar-default">
+    <a href="#" class="navbar-brand">Project Name</a>
+    <ul class="navbar navbar-nav">
+        <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle" role="button" id="drop1">
+                Dropdown <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="drop1"  data-toggle="dropdown">
+                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">something link</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"></li>
+        <li class="dropdown"></li>
+    </ul>
+</nav>
+
+<div class="selector">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#fat">@fat</a></li>
+            <li class=""><a href="#mdo">@mdo</a></li>
+            <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown
+                    <b class="caret"></b></a>
+                <ul class="dropmenu">
+                    <li><a href="#one">one</a></li>
+                    <li><a href="#two">two</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#three">three</a></li>
+
+                </ul>
+            </li>
+        </ul>
+
+    </nav>
+
+</div>
+<div data-offset="0" data-target="#selector" data-spy="scroll" style="">
+    <h4 class="fat">@fat</h4><p>披着大红色幕布，点缀着丝带、气球，铺着红色地毯的舞台之上，赫然站着三个漂亮的小姐姐。在其旁边站着的是他们的家长，但却只有一个，我没能看清楚他的大概长相。只模糊得记着，其中一个女孩眉清目秀，
+    樱桃嘴，一头乌黑的长发很自然的垂着，着一席淡蓝色汉服，衣袖之上绣了一只金色的燕子，举手投足间有种无与伦比的古典美。</p>
+    <h4 class="mdo">@mdo</h4><p>接下来，由我的女儿为大家表演——汉舞!”他接过麦克风，带着激动不已的语气说道，似乎比观众还要期待这次表演。显然他没得及问女儿此舞的名字，气氛略显尴尬。
+
+    “请大家掌声鼓励!”他紧接着说。并慢慢退下了舞台，我看不清他的脸，只隐约中瞥见他一头银灰色短发。台下顿时爆发出一阵雷鸣般的掌声，好像积聚了很久的样子，反正声响很大。</p>
+    <h4 class="one">one</h4><p>随着音乐慢慢奏起，三位渐渐将那行云流水的舞步施展开来。时而如云雀，欢腾轻快。时而如小鹿，机灵可爱。且收放自如，好不美丽!期间，并没有出现什么瑕疵。不知什么时候那两边的女子手中竟多出两把扇子，纸制的那种，灰白色的扇中画着什么。至于什么图案我是记不太清了的，也许是一副山水画，也许是几棵老树吧，反正此刻轻捏手中毫无违和感。又见她俩慢慢的，轻轻的，迈着细微的步子。如淌在水中，并荡起微微的水波。水波蔓延开来，在观众眼中又荡出一圈涟漪。两首轻轻一横，那扇子便在空中慢慢绽放开来。如孔雀开屏一般盛开着，只是少了她那般华丽的羽毛，但这并不是很重要。
+    有时候朴实无华的东西更能体现出一种干净的，纯洁的美。难道不是么?反正用在这里，正适合这些刚从古代走来的美女。至少，我是这样认为的。</p>
+    <h4 class="two">two</h4><p>只见她俩越来越近了，越来越近了，我是说离中间那位眉清目秀的姑娘!她俩将煽动的扇子轻举，慢慢地，轻轻地又盖过她的脸庞，直至遮住了她娇羞的笑脸。这是，这又是要做啥?莫非是要来一套戏剧中的变脸?可千万不要把那仙女似的脸给变丑啦!我心里嘀嘀咕咕的念着。
+
+    她们渐渐地，又轻轻地，将遮住她的扇子移开。只见中间那位美丽的女子，此刻玉手中竟捧着三束玫瑰，红的，白的，红的。嗯!真是三束玫瑰。
+    热烈的玫瑰衬着她白皙的肤色，也倒映着她那忧愁的脸庞，此刻确更显得楚楚动人了。</p>
+    <h4 class="three">three</h4><p>在众人躁动间，她动了!那双纤细的手，还有那面忧愁的面容也开始动了。她将三束玫瑰同时抛向了空中，颇有股古代抛绣球的场面。只是这次竟有“三个”，但是!那个白色的，又代表什么呢?只见玫瑰在半空中顿了一下，便又快速的沿着抛物的轨迹跌落着，在空中划出几道优美的弧线。红的，白的，红的。竟是真的，真的，朝着哄闹的人群飞过来了。此刻人群的心中亦是激动的，
+    男孩们都伸开手，眼睛死死的盯着飞舞的玫瑰，盼望着有一束玫瑰能朝着自己的方向飞来，到时候并定用自己厚实的双手手接住它。</p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/jquery-3.3.1.min.js"></script>
+</body>
+</html>

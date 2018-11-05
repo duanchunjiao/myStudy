@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.warp{
+    width: 1190px;
+    height: 300px;
+    border: 1px solid red;
+    margin:100px auto;
+
+}
+.wrap .top-1{
+    width: 1190px;
+    height: 40px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 50px;
+    background-color: orange;
+
+}
+.wrap .top-2{
+    width: 1190px;
+    height: 257px;
+    border: 1px solid red;
+    margin: auto;
+
+}
+
+.wrap .top-1 li{
+    display: inline-block;
+    line-height: 40px;
+    margin-left: 5px;
+
+
+}
+/**/
+/*进入下一节*/
+#form1 fieldset{
+    width: 615px;
+    height: 346px;
+    background:url("../images/1.jpg") no-repeat center;
+    padding:12px;
+    border:none;
+
+
+
+
+}
+#form1 fieldest legend{
+    display: none;
+}
+
+#form1 fieldest #textfield{
+    width: 16em;
+    border: 1px solid #aaa;    /*为什么这行代码实现不了*/
+    position: relative;
+    top:-3px;
+}
+#form1 fieldest textarea{
+    width: 30em;
+    height: 3em;
+    border: 1px solid #aaa;
+}
+#form1 fieldest .checkbox{
+    border: 1px solid #d8bca9;
+}
+#form1 fieldest select{
+    border: 1px solid  #d8bca9;
+
+}
+
+#form1 fieldest #radio{
+    border: 1px solid  #d8bca9;
+    position: relative;
+    top:3px;
+    left:-2px;
+}
+#form1 fieldest .title{
+    width: 160px;
+    float: left;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#form1 fieldest .top{
+    margin-top: 80px;
+}
+#form1 fieldest .center{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;/*让表格有线条*/
+    font-size: 75%;
+    line-height: 1.1;
+}
+tr:hover,td:hover{
+    background-color: yellow;
+}
+th,td{
+    padding: .3em .5em;
+    cursor: pointer;/*手指样式*/
+}
+th{
+    font-weight: normal;
+    text-align: left;
+    padding-left: 15px;
+}
+td{
+    padding-left: 28px;
+    font-weight: bold;
+    color: #444;
+}
+ th{
+    background: #c6ceda;
+    background-color: #fff #fff #888 #fff;
+    border-style: solid;
+    border-width: 1px 1px 2px 1px ;
+    padding-left: .5em;
+}
+.ul-1 a{
+    text-decoration: none;
+    color: #1b6d85;
+    font-weight: bold;
+    font-family: "黑体";
+    font-size: 20px;
+}
+li:nth-of-type(1){
+    left:280px;
+    top:200px;
+}
+h2:target{
+    color: red;
+}
+#text-1{
+text-shadow:0.1em 0.1em #3e8f3e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

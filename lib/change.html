@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的前端作业</title>
+</head>
+<body>
+<div class="wrap" style="margin-top: 100px; margin-left: 500px">
+    <button onclick="changes()">我要变身啦</button>
+<p>Paul,Paula,Pauline,paul,Paul把Paul换成Ringo</p>
+<p style="color: red  ;font-size: xx-large ">我要变身啦</p>
+    <p id="demo">Paul,Paula,Pauline,paul,Paul把Paul换成Ringo</p>
+    <script type="text/javascript">
+        function changes() {
+            var str="Paul,Paula,Pauline,paul,Paul";
+            var str1=str.replace(/\bPaul\b/g,"Ringo");
+            document.getElementById("demo").innerHTML=str1;
+
+        }
+
+    </script>
+</div>
+</body>
+</html>

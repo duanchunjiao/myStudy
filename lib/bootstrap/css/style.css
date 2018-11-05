@@ -1,0 +1,17 @@
+.navbar-inverse input{
+    background: #333333;
+    border: none;
+    color: #f9f9f9;
+}
+.navbar-inverse button[type="submit"]{
+    border: none;
+    background: none;
+    color:#f9f9f9;
+}
+.navbar-inverse form{
+    position: relative;
+}
+.navbar-inverse .glyphicon-search{
+    position: absolute;
+    top:25%;
+}
